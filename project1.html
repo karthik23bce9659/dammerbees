@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="project1.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <! create account page>
+    <div id="create_card" class="login_background">
+        <div>
+
+            <h1 class="login_head">WELCOME TO <span class="span_dammer">DAMMER BEES </span>STYLES!</h1>
+        </div>
+        <div class="login_con">
+            <div class="login_img_con d-none d-md-block">
+                <img src="https://res.cloudinary.com/dxcgw1xyi/image/upload/v1775927421/image_600c9a9f_lhqytn.png" alt="kart" class="login_img login_img2"/>
+            </div>
+        <div class="login_card shadow-lg">
+            <p>CREATE ACCOUNT</p>
+            <label for="username">User name</label>
+            <br />
+
+            <input id="username" type="text" class="input" placeholder="  karthik" />
+            <br>
+            <label for="email">e-mail</label>
+            <br />
+            <input id="email" type="email" class="input" placeholder="  karthik@gmail.com" />
+            <br />
+            <label for="password">Password</label>
+            <br />
+            <input id="password" type="text" class="input" />
+            <br />
+            <label for="password2">confirm/Password</label>
+            <br />
+            <input id="password2" type="text" class="input" />
+            <br />
+            <p id="para5" style="color:orange">please don't forget the password</p>
+            <div class="login_button_card">
+                <button id="signup" class="signup_button text-center" onclick="">SIGN UP</button>
+                <button id="login" class="signup_button text-center">LOG IN</button>
+            </div>
+        </div>
+        </div>
+        <div id="admin_button">
+        <button class="btn btn-primary d-flex flex-column justify-content-center">Admin</button>
+        </div>
+    </div>
+    <div  id="admin" class="d-none m-5">
+        <button id="back_to"><--</button>
+        <h1>As a ADMIN you can update the produts , add the products and delete the products</h1>
+        <label for="admin_password">password</label>
+        <input type="password" id="admin_password"/>
+        <div id="change_area" class="d-none">  
+        <div  class="d-flex flex-column p-4">
+            <h2>ADD THE PROOCUT</h2>
+            <label for="tshirt_name" >name</label>
+            <input id="tshirt_name" type="text"/>
+            <label for="price">price</label>
+            <input id="price" type="number" value="0"/>
+            <label for="tshirt_desc">descrpition</label>
+            <input id="tshirt_desc" type="text"/>
+            <label for="tshirt_url">image url</label>
+            <input id="tshirt_url" type="text"/>
+            <label for="tshirt_categery">category</label>
+            <input id="tshirt_categery" type="text"/>
+            <label for="tshirt_stock">stock</label>
+            <input id="tshirt_stock" type="number" value="0"/>
+            <div class="mt-3" id="add_product" >
+                  <button  class="d-flex flex-column justify-content-center w-10 btn btn-primary">submit</button>
+            </div>
+            
+        </div>
+        </div>
+        </div>
+
+    <! login page>
+    <div id="login_card" class="login_background d-none">
+        <div>
+
+            <h1 class="login_head">WELCOME TO <span class="span_dammer">DAMMER BEES </span>STYLES!</h1>
+        </div>
+        <div class="login_con">
+            <div class="login_img_con d-none d-md-block">
+                <img src="https://res.cloudinary.com/dxcgw1xyi/image/upload/v1775927421/image_600c9a9f_lhqytn.png" class="login_img login_img2"/>
+            </div>
+            <div class="login_card shadow-lg">
+            <p>LOG IN</p>
+            <label for="username1">User name</label>
+            <br />
+
+            <input id="username1" type="text" class="input" placeholder="  karthik" />
+            <br>
+
+            <label for="password1">Password</label>
+            <br />
+            <input id="password1" type="password" class="input" />
+            <br />
+            
+             <div class="login_button_card">
+                <button id="login2" class="signup_button text-center">LOG IN</button>
+                <button id="create_account_b" class="signup_button text-center">CREATE ACCOUNT</button>
+            </div>
+            <p id="para1"></p>
+        </div>
+        
+        </div>
+    
+    </div>
+    
+    <! home page section>
+    <div id="home_page" class="home_background d-none">
+        <nav class="navbar navbar-expand-lg navbar-light navbar_bg">
+      <a class="navbar-brand mr-4"  href="#"><img src="https://res.cloudinary.com/dxcgw1xyi/image/upload/v1777056510/WhatsApp_Image_2026-04-24_at_11.51.51_PM_u9tndt.jpg" class="logo"/></a>
+      <div>
+            <input class="search" type="search" id="search_bar"/>
+      </div>
+      
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto mr-5">
+            
+          <a class="nav-link active" style="color:#f2efe7" href="#home_page">
+            HOME
+            <span class="sr-only">(current)</span>
+          </a>
+          <a class="nav-link active" style="color:#f2efe7" href="#tshirts">T-SHIRTS</a>
+          <a class="nav-link active" style="color:#f2efe7" href="#about_us">ABOUT US</a>
+           
+        </div>
+      </div>
+        </nav>
+        <div class="banner_card">
+    
+        </div>
+        <p class="para1">T-SHIRTS</p>
+    
+        <div id="tshirts" class="container1">
+
+        </div>
+      
+        <!About us>
+        <div  class="back_card_home">
+            <a style="color:whitesmoke" href="#home_page">BACK TO TOP</a>
+        </div>
+        <div class="about_us_card" id="about_us">
+            <div class="m-3">
+            
+            <ul style="list-style: none;">
+                <l1 class="list_head">Get To Know About Us</l1>
+                <li>passion on clothing industry</li>
+                <li>more than 1000+ offline consumers</li>
+                <li>whole sale textiles</li>
+                <li>own manufratuing unit</li>
+            </ul>
+            </div>
+            <div class="m-3">
+            <ul style="list-style: none;" >
+                <li class="list_head">Connect with us</li>
+                <li><a href="">facebook</a></li>
+                <li><a href="">instagram</a></li>
+                <li><a href="">e-mail</a></li>
+            </ul>
+            </div>
+        
+        </div>
+     
+    </div>
+    <div id="Add_to_cart_contanier" class="d-none">
+        <div class="back_icon_div">
+        <a href="#home_page" id="back_icon"><i style="font-size:24p;color:#f2efe7" class="fa">&#xf060;</i></a>
+        </div>
+    </div>
+    
+<script src="project1.js"></script>
+</body>
+
+</html>

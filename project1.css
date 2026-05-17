@@ -1,0 +1,264 @@
+.login_background {
+     
+    background-color:#f2efe7;
+    padding: 30px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.login_head {
+    font-size: 20px;
+    color:#8B004A;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.span_dammer {
+    font-size: 35px;
+    color: #064040;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.login_card {
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid #8B004A;
+    max-width: 250px;
+    background-color: #8B004A;
+    border-radius: 10px;
+    color:#f2efe7;
+
+
+}
+
+.input {
+    border-radius: 10px;
+    border: 0px solid;
+
+}
+
+.signup_button {
+    background-color: #f2efe7;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 2px solid #8B004A;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 10px;
+    margin-right: 10px;
+    color:#8B004A;
+
+}
+
+.login_button_card {
+    display: flex;
+    flex-direction: row;
+
+}
+.navbar_bg {
+    background-color: #8B004A;
+    font-weight:500;
+    font-family: fantasy;
+    color:#f2efe7;
+}
+.banner_card {
+    background-image: url("https://cdn.dribbble.com/userupload/14251223/file/original-ccf454426d2b7842dfdcd6917528301d.jpg?resize=2048x1152&vertical=center");
+    background-size:cover;
+    min-height:350px;
+    margin-top: 0px;
+}
+.banner_para {
+    background-color:black;
+
+}
+.home_background {
+    background-color:#f2efe7;
+    min-height:100vh;
+}
+
+.tshirt_img {
+    height:180px;
+    width:130px;
+
+}
+.tshirt_contanier {
+    padding:20px;
+    background-color:#8B004A;
+    color:#f2efe7;
+    width:140px;
+    min-height:250px;
+    box-sizing: content-box;
+    box-shadow:14px -9px 19px 11px rgba(0,0,0,0.39);
+    margin:20px;
+    border-radius: 15px;
+    border:0px;
+}
+.container1 {
+  padding:20px;
+  margin-top:20px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  
+
+}
+.login_con {
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: space-around;
+    padding:20px;
+    
+}
+@media (orientation: portrait) {
+    .login_img {
+        display: none;
+    }
+
+
+}
+.login_img2
+ {
+    width:100%;
+ }
+ .login_img_con{
+    padding: 10px;
+    box-shadow:14px -9px 19px 11px rgba(126, 2, 2, 0.39);
+    
+    
+}
+.search {
+    border:0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-weight:300;
+
+
+
+}
+.search_button {
+    background-color:white;
+    border:1px solid white;
+}
+.about_us_card {
+   background-color:#f2efe7;
+   min-height:400px;
+   width:100%;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    display: flex;
+    flex-direction:row;
+    padding:20px;
+
+    flex-wrap: wrap;
+}
+.para1 {
+    background-color: transparent;
+    font-family:fantasy;
+    margin:20px;
+    font-size: 25px;
+    color: #8B004A; 
+}
+.co_img {
+    height:200px;
+    width:100vw;
+}
+.list_head {
+    list-style-type: none;
+    font-size:20px;
+    color:#8B004A;
+    font-weight: bold;
+}
+.back_card_home {
+    background-color:#8B004A;
+    text-align: center;
+    padding:20px;
+    font-family:fantasy;
+    
+    
+    
+    
+}
+.add_to_cart {
+    background-color:#f2efe7;
+    border: 0px;
+    border-radius:5px;
+    width:100%;
+    color:#8B004A;
+}
+.img_display{
+    padding:30px;
+    background-color: #f2efe7;
+    margin:20px;
+    text-align: center;
+    display:flex;
+    flex-direction:row;
+    justify-content: start;
+    min-height:280px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.product_display {
+    background-color:#8B004A;
+    min-height:100vh;
+    padding:20px;
+
+
+}
+.back_icon_div {
+    background-color:#8B004A;
+    padding:10px;
+}
+
+.data_con_css {
+    display:flex;
+    flex-direction:column;
+    padding-left:30px;
+}
+.tshirt_img2 {
+    height:250px;
+    width:180px;
+    margin: 10px;
+
+}
+.buy_button1 {
+    background-color: #8B004A;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 2px solid #f2efe7;
+    border-radius: 5px;
+    width:100px;
+    padding: 5px;
+    font-size: 10px;
+    margin-right: 10px;
+    color:#f2efe7;
+
+}
+
+.select_style {
+   width:60px;
+   background-color: #8B004A;
+   color:#f2efe7;
+   padding:5px;
+   margin:10px;
+   border-radius: 5px; 
+
+}
+.similar_products {
+    display:flex;
+    flex-direction:column;
+    justify-content: start;
+}
+
+.logo{
+    width:50px;
+    height:50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+
