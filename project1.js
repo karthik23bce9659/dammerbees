@@ -42,7 +42,7 @@ signup_button.onclick = function() {
         body: JSON.stringify(data)
         };
 
-        fetch("http://localhost:5000/register", options)
+        fetch("https://dammerbees-backend.onrender.com/register", options)
         .then(function(response) {
         return response.status;
         })
@@ -98,7 +98,7 @@ login_button2.onclick=function() {
         body: JSON.stringify(data)
         };
 
-        fetch("http://localhost:5000/login", options)
+        fetch("https://dammerbees-backend.onrender.com/login", options)
         .then(function(response) {
         return response.text();
         })
@@ -177,7 +177,7 @@ add_product_button.onclick = function() {
         body: JSON.stringify(data)
         };
 
-        fetch("http://localhost:5000/product", options)
+        fetch("https://dammerbees-backend.onrender.com/product", options)
         .then(function(response) {
         return response.status;
         })
@@ -325,7 +325,7 @@ function create_Add_To_cart(x) {
 
     }
 
-    let url = "http://localhost:5000/products/";
+    let url = "https://dammerbees-backend.onrender.com/products/";
     let options = {
       method: "GET"
     };
@@ -399,7 +399,7 @@ search.addEventListener("keydown",function(event) {
     if(event.key="Enter") {
         contanier.textContent="";
 
-        let url = "http://localhost:5000/product/?name=" + search.value;
+        let url = "https://dammerbees-backend.onrender.com/product/?name=" + search.value;
     let options = {
       method: "GET"
     };
@@ -419,7 +419,7 @@ search.addEventListener("keydown",function(event) {
 
 
 
-    let url = "http://localhost:5000/products/";
+    let url = "https://dammerbees-backend.onrender.com/products/";
     let options = {
       method: "GET"
     };
