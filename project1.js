@@ -396,7 +396,7 @@ let search = document.getElementById("search_bar");
 
 search.addEventListener("keydown",function(event) {
     
-    if(event.key="Enter") {
+    if(event.key=="Enter") {
         contanier.textContent="";
 
         let url = "https://dammerbees-backend.onrender.com/product/?name=" + search.value;
