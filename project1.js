@@ -104,7 +104,7 @@ login_button2.onclick=function() {
         })
         .then(function(text) {
         console.log(text);
-        if(text=="200" || text=="Ok") {
+        if(text=="200" || text=="OK") {
             p_1.textContent="welcome to Dammerbess";
             home.classList.toggle("d-none");
             login_account.classList.toggle("d-none");
